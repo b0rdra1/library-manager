@@ -1,0 +1,36 @@
+# Build directories
+/build/
+/out/
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Maven
+target/
+
+# Application-specific
+*.class
+*.jar
+*.war
+*.ear
+*.db
+
+# H2 Database files
+*.h2.db
+
+# Spring Boot
+*.jar.original
+*.war.original
