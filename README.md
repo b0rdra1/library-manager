@@ -67,7 +67,7 @@ JUnit 5, Mockito (`@Mock`, `@InjectMocks`), `when`, `verify`
 **Описание:** Вернуть историю всех аренд пользователя, отсортированную по дате (самые новые — первыми).
 
 **Навыки:**
-JPA-запросы
+JPA-запросы, Derived Query Methods
 
 ---
 
@@ -99,3 +99,8 @@ DTO, аннотации `javax.validation`
 Обработка ошибок, `@ExceptionHandler`, `ErrorResponse`
 
 ---
+
+## Дополнительно
+http://localhost:8080/h2-console - доступ к H2 (JDBC URL: jdbc:h2:mem:librarydb)
+Настоятельно рекомендуется использовать Postman или curl для тестирования каждого эндпоинта.
+Удачи в выполнении заданий!

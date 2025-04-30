@@ -1,4 +1,4 @@
-INSERT INTO book (title, author, year, available_copies) VALUES
+INSERT INTO book (title, author, published_year, available_copies) VALUES
 ('Effective Java', 'Joshua Bloch', 2018, 3),
 ('Clean Code', 'Robert C. Martin', 2008, 2),
 ('Spring in Action', 'Craig Walls', 2021, 1);

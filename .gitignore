@@ -1,36 +1,18 @@
-# Build directories
-/build/
-/out/
-
-# Gradle
-.gradle/
-build/
-
-# IntelliJ IDEA
-.idea/
+*.DS_Store
+*.sw?
+.#*
+*#
+*~
+.classpath
+.project
+.settings
+bin
+build
+target
+dependency-reduced-pom.xml
+*.sublime-*
+/scratch
+.gradle
+README.html
 *.iml
-*.iws
-
-# Log files
-*.log
-
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# Maven
-target/
-
-# Application-specific
-*.class
-*.jar
-*.war
-*.ear
-*.db
-
-# H2 Database files
-*.h2.db
-
-# Spring Boot
-*.jar.original
-*.war.original
+.idea
