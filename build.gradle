@@ -20,7 +20,16 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.mockito:mockito-core:5.2.0'
 }
-
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+}
+dependencies {
+    implementation 'org.hibernate.validator:hibernate-validator:8.0.1.Final'
+}
+dependencies {
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
 test {
     useJUnitPlatform()
 }
